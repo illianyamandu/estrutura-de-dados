@@ -1,7 +1,13 @@
 typedef int TipoItem;
 
-class PilhaDinamica() {
+struct No {
+    TipoItem valor;
+    No* proximo;
+};
+
+class PilhaDinamica {
     private:
+        No* noTopo;
 
     public:
         PilhaDinamica(); // Construtor
