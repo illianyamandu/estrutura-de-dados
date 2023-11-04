@@ -17,4 +17,4 @@ class fila {
         int getPrimeiro();
         int getUltimo();
         TipoItem getEstrutura();
-}
+};
