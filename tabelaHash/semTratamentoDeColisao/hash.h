@@ -9,7 +9,7 @@ class Hash{
         Aluno* estrutura;
 
     public:
-        Hash();
+        Hash(int max_itens, int max_posicoes);
         ~Hash();
         bool estaCheia();
         int obterTamanhoAtual();
