@@ -8,9 +8,9 @@ Aluno::Aluno () {
     nome = " ";
 }
 
-Aluno::Aluno (int matricula, string nome) { 
-    this->matricula = matricula;
-    this->nome = nome;
+Aluno::Aluno (int nmr_matricula, string nome_aluno) { 
+    matricula = nmr_matricula;
+    nome = nome_aluno;
 }
 
 Aluno::~Aluno () {
@@ -18,22 +18,22 @@ Aluno::~Aluno () {
 }
 
 int Aluno::getMatricula () {
-    return this->matricula;
+    return matricula;
 }
 
 string Aluno::getNome () {
-    return this->nome;
+    return nome;
 }
 
 void Aluno::setMatricula (int matricula) {
-    this->matricula = matricula;
+    matricula = matricula;
 }
 
 void Aluno::setNome (string nome) {
-    this->nome = nome;
+    nome = nome;
 }
 
 void Aluno::imprime () {
-    cout << "Matrícula: " << matricula << endl;
+    cout << "Matricula: " << matricula << endl;
     cout << "Nome: " << nome << endl;   
 }
