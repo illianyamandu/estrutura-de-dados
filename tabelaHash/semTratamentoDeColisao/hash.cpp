@@ -28,9 +28,6 @@ int Hash::obterTamanhoAtual () {
 
 void Hash::inserir (Aluno aluno) {
     int local = FuncaoHash(aluno);
-
-    cout << "Posicao: " << local << endl;
-
     estrutura[local] = aluno;
     qtd_itens++;
 }
